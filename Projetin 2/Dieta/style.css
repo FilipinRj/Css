@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+:root{
+    --cor1: #265C4B;
+    --cor2: #146551;
+    --cor3: #007566;
+    --cor4: #589A8D;
+    --cor5: #8FC1B5;
+}
+
+body{
+
+    background-color: var(--cor3);
+}
+/* header - topo da pagina */
+
+header {
+
+    background-image: linear-gradient(to bottom, var(--cor5),var(--cor3),var(--cor1));
+    height: 75px;
+    padding-bottom: 80px;
+
+}
+
+header > h1 {
+
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+
+header > nav{
+    padding-top: 35px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    margin-right: 10px;
+    padding: 15px 25px;
+
+    
+}
+
+nav > a:hover{
+    border-radius: 15px;
+    background-color: var(--cor5);
+}
+
+
+
+
+
+
+
+
+/* conteudo principal - meio da pagina */
+
+main{
+    background-color: var(--cor4);
+    margin: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 100%;
+}
+
+main > h2{
+    font-size: 35px;
+    padding: 50px;
+}
+
+.butao{
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.confimar{
+    border: 1px solid red;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+
+/* footer - final da pagina */
+
+footer{
+
+    padding: 10px;
+}
+
+#baixo > p {
+
+    text-align: center;
+
+}

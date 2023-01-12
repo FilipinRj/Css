@@ -1,0 +1,80 @@
+Comandos css:
+
+background-color : (cor) ;                           // Mexer no fundo do site sempre ter ; no final
+background-image : (imagem) ;                        // Colocar imagem de fundo do site
+background-size  : (comando) ;                       // Mexer no tamanho do fundo
+background-repeat: (comando) ;                       // Escolher se quer que repita a imagem houver espaço
+border-radius    : (número)px ;                      // Mexer na borda (section)
+padding          : (número)px ;                      // Colocar espaço da letra para a borda
+width            : (número)px ;                      // Largura da estrutura
+height           : (número)px ;                      // Altura da estrutura
+font             : normal (número)pt (fonte) ;       // Mexer nas letras 
+margin           : (quantidade) ;                    // Mudar posição da estrutura (section)
+text-align       : (quantidade) ;                    // Alinhar texto na tela
+font-style       : (fonte) ;                         // Mudar estilo da fonte da letra
+
+box-shadow       : (número//deslocamento lateral)px (número//delocamento vertical)px (número//espalhamento)px (cor) ;     // Colocar sombra
+
+color               : (cor) ;          		     // Mudar cor do texto
+text-decoration     : (comando) ;      		     // Tirar linha de baixo do link / Colcoar linha em baixo / Colocar linha no meio / Colocar linha de link
+text-transform      : (comando) ;      		     // Deixar tudo maiusculo / Deixar tudo minusculo / Deixar a primeira palavra maiuscula
+text-indent         : (numero)px ;     		     // Dar paragrafo no começo do texto 
+letter-spacing      : (numero)px ;      	     // Espaçamento entre as letras do texto
+line-height         : (numero)px ;    		     // Espaçamento entre as linhas do texto
+word-spacing        : (numero)px ;    		     // Espaçamento entre as palavras do texto
+font-family         : (comando) ;     		     // Selecionar fontes de texto padrões de serem utilizadas
+font-size           : (numero)px ;           	     // Mudar tamanho da fonte
+font-weight         : (comando)/(numero)px ;         // Mudar largura da letra / "bold" para botar em negrito
+border              : (numero)px (comando) (cor) ;   // Colocar borda no background
+cursor              : (comando) ;                    // Mexer com o cursor
+flex-direction      : (comando);                     // Mudar direção do conteudo
+target              : (comando);                     // Abrir link em outra pagina
+object-fit          : (comando);                     // Mexer na resolução da imagem/video
+transition-duration : (comando);                     // Acelerar ou diminuir a velocidade de transição
+list-style-position : (comando);                     // colocar a lista dentro da box
+columns             : (numero) ;                     // numero de colunas da lista / separar em colunas
+
+
+_________________________________________________________________________
+
+
+Obs:
+
+# 	   = Id    (só pode um)
+.          = Class (podem varios)
+:          = Pseudo-Class
+::         = Pseudo-Element
+px         = Pixels
+parenteses = Oq deve ser colocado sem parenteses
+comando    = Comando não especificado
+
+
+_______________________________________________________________________
+
+Exemplo:
+
+background		 = blue ;
+border-radius		 = 10px ;
+padding		         = 15px ;
+width 			 = 500px ;
+font 			 = normal 15pt Arial ;
+margin			 = auto ;
+text align		 = center ;
+font-style		 = italic ;
+box-shadow		 = 3px 3px 10px black ;
+text-decoration		 = none / overline / line-through / underline
+text-transform 		 = uppercase / lowercase / capitaliza
+font-weight 		 = bold / 5px
+border			 = 3px (solid / double) gray
+cursor 			 = none / text / wait / help
+target			 = _blank 
+
+
+__________________________________________________________________
+
+estrutura html :
+
+body      // corpo
+header    // cabeçalho 
+section   //
+footer    //

@@ -1,0 +1,2 @@
+margin auto 	  = deixa a caixa no meio automaticamente
+text-align center = deixa o texto no meio automaticamente

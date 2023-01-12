@@ -1,0 +1,23 @@
+window.alert
+window.confirm
+window.prompt
+!--                     adicionar comentario em html   (html)
+//                      adicionar comentario uma linha (js)
+/* */                   adicionar comentario mais de uma linha/comentario (css)
+<style>                 estilo
+<h1 >                   titulo
+<p >                    paragrafo
+<br>                    alinhamento
+var 'nome' =            criar variavel
++                       concatenação
+(number + number)       para adição
+(string + string)       para concatenação
+Number.paselnt(x)       para converter numero inteiro
+Number.parsefloat(x)    para converter numero com virgula
+Number(x)               para converter automaticamente
+string(x)               para converter automaticamente
+isNumero(var.value)     Analisa se a variavel é um número
+!inLista(var.value)     Analisa se o número ja está na lista     
+-1                      Indica que o número n foi encontrado
+<strong>                Palavra em Negrito
+<b>                     Palavra em Negrito tambem
